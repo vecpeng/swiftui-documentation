@@ -13,10 +13,30 @@
 		61AA503B276B79FD008A8EC1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA503A276B79FD008A8EC1 /* Tests_macOSLaunchTests.swift */; };
 		61AA503C276B79FD008A8EC1 /* swiftui_documentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5014276B79F2008A8EC1 /* swiftui_documentationApp.swift */; };
 		61AA503D276B79FD008A8EC1 /* swiftui_documentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5014276B79F2008A8EC1 /* swiftui_documentationApp.swift */; };
-		61AA503E276B79FD008A8EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5015276B79F2008A8EC1 /* ContentView.swift */; };
-		61AA503F276B79FD008A8EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5015276B79F2008A8EC1 /* ContentView.swift */; };
 		61AA5040276B79FD008A8EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5016276B79FC008A8EC1 /* Assets.xcassets */; };
 		61AA5041276B79FD008A8EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5016276B79FC008A8EC1 /* Assets.xcassets */; };
+		61AA5056276B7AB6008A8EC1 /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5055276B7AB6008A8EC1 /* SliderComponent.swift */; };
+		61AA5057276B7AB6008A8EC1 /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5055276B7AB6008A8EC1 /* SliderComponent.swift */; };
+		61AA505C276B7DB3008A8EC1 /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA505B276B7DB3008A8EC1 /* TextFieldComponent.swift */; };
+		61AA505D276B7DB3008A8EC1 /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA505B276B7DB3008A8EC1 /* TextFieldComponent.swift */; };
+		61AA505F276B7FCD008A8EC1 /* CodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA505E276B7FCD008A8EC1 /* CodeComponent.swift */; };
+		61AA5060276B7FCD008A8EC1 /* CodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA505E276B7FCD008A8EC1 /* CodeComponent.swift */; };
+		61AA5062276B853E008A8EC1 /* ColorPickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5061276B853E008A8EC1 /* ColorPickerComponent.swift */; };
+		61AA5063276B853E008A8EC1 /* ColorPickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5061276B853E008A8EC1 /* ColorPickerComponent.swift */; };
+		61AA5065276B85E9008A8EC1 /* ToggleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5064276B85E9008A8EC1 /* ToggleComponent.swift */; };
+		61AA5066276B85E9008A8EC1 /* ToggleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5064276B85E9008A8EC1 /* ToggleComponent.swift */; };
+		61AA508A276B9A19008A8EC1 /* gen.js in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5087276B9A18008A8EC1 /* gen.js */; };
+		61AA508B276B9A19008A8EC1 /* gen.js in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5087276B9A18008A8EC1 /* gen.js */; };
+		61AA508C276B9A19008A8EC1 /* tsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5088276B9A18008A8EC1 /* tsconfig.json */; };
+		61AA508D276B9A19008A8EC1 /* tsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5088276B9A18008A8EC1 /* tsconfig.json */; };
+		61AA508E276B9A19008A8EC1 /* gen.ts in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5089276B9A18008A8EC1 /* gen.ts */; };
+		61AA508F276B9A19008A8EC1 /* gen.ts in Resources */ = {isa = PBXBuildFile; fileRef = 61AA5089276B9A18008A8EC1 /* gen.ts */; };
+		61AA5094276B9C55008A8EC1 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5091276B9C55008A8EC1 /* ColorView.swift */; };
+		61AA5095276B9C55008A8EC1 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5091276B9C55008A8EC1 /* ColorView.swift */; };
+		61AA5096276B9C55008A8EC1 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5092276B9C55008A8EC1 /* TextView.swift */; };
+		61AA5097276B9C55008A8EC1 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5092276B9C55008A8EC1 /* TextView.swift */; };
+		61AA5098276B9C55008A8EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5093276B9C55008A8EC1 /* ContentView.swift */; };
+		61AA5099276B9C55008A8EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AA5093276B9C55008A8EC1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		61AA5014276B79F2008A8EC1 /* swiftui_documentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_documentationApp.swift; sourceTree = "<group>"; };
-		61AA5015276B79F2008A8EC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61AA5016276B79FC008A8EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61AA501B276B79FC008A8EC1 /* swiftui-documentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-documentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AA5021276B79FC008A8EC1 /* swiftui-documentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-documentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +68,17 @@
 		61AA5034276B79FD008A8EC1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61AA5038276B79FD008A8EC1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		61AA503A276B79FD008A8EC1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		61AA5055276B7AB6008A8EC1 /* SliderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderComponent.swift; sourceTree = "<group>"; };
+		61AA505B276B7DB3008A8EC1 /* TextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComponent.swift; sourceTree = "<group>"; };
+		61AA505E276B7FCD008A8EC1 /* CodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeComponent.swift; sourceTree = "<group>"; };
+		61AA5061276B853E008A8EC1 /* ColorPickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerComponent.swift; sourceTree = "<group>"; };
+		61AA5064276B85E9008A8EC1 /* ToggleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleComponent.swift; sourceTree = "<group>"; };
+		61AA5087276B9A18008A8EC1 /* gen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gen.js; sourceTree = "<group>"; };
+		61AA5088276B9A18008A8EC1 /* tsconfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tsconfig.json; sourceTree = "<group>"; };
+		61AA5089276B9A18008A8EC1 /* gen.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gen.ts; sourceTree = "<group>"; };
+		61AA5091276B9C55008A8EC1 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		61AA5092276B9C55008A8EC1 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		61AA5093276B9C55008A8EC1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +116,7 @@
 		61AA500E276B79F2008A8EC1 = {
 			isa = PBXGroup;
 			children = (
+				61AA5085276B9A18008A8EC1 /* Scripts */,
 				61AA5013276B79F2008A8EC1 /* Shared */,
 				61AA5022276B79FC008A8EC1 /* macOS */,
 				61AA502B276B79FD008A8EC1 /* Tests iOS */,
@@ -97,8 +128,9 @@
 		61AA5013276B79F2008A8EC1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				61AA5090276B9C55008A8EC1 /* Views */,
+				61AA5054276B7AB6008A8EC1 /* Components */,
 				61AA5014276B79F2008A8EC1 /* swiftui_documentationApp.swift */,
-				61AA5015276B79F2008A8EC1 /* ContentView.swift */,
 				61AA5016276B79FC008A8EC1 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +171,46 @@
 				61AA503A276B79FD008A8EC1 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		61AA5054276B7AB6008A8EC1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5055276B7AB6008A8EC1 /* SliderComponent.swift */,
+				61AA505B276B7DB3008A8EC1 /* TextFieldComponent.swift */,
+				61AA505E276B7FCD008A8EC1 /* CodeComponent.swift */,
+				61AA5061276B853E008A8EC1 /* ColorPickerComponent.swift */,
+				61AA5064276B85E9008A8EC1 /* ToggleComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		61AA5085276B9A18008A8EC1 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5086276B9A18008A8EC1 /* js */,
+				61AA5088276B9A18008A8EC1 /* tsconfig.json */,
+				61AA5089276B9A18008A8EC1 /* gen.ts */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		61AA5086276B9A18008A8EC1 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5087276B9A18008A8EC1 /* gen.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		61AA5090276B9C55008A8EC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61AA5091276B9C55008A8EC1 /* ColorView.swift */,
+				61AA5092276B9C55008A8EC1 /* TextView.swift */,
+				61AA5093276B9C55008A8EC1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +338,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AA508C276B9A19008A8EC1 /* tsconfig.json in Resources */,
+				61AA508E276B9A19008A8EC1 /* gen.ts in Resources */,
 				61AA5040276B79FD008A8EC1 /* Assets.xcassets in Resources */,
+				61AA508A276B9A19008A8EC1 /* gen.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +349,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AA508D276B9A19008A8EC1 /* tsconfig.json in Resources */,
+				61AA508F276B9A19008A8EC1 /* gen.ts in Resources */,
 				61AA5041276B79FD008A8EC1 /* Assets.xcassets in Resources */,
+				61AA508B276B9A19008A8EC1 /* gen.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +377,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61AA503E276B79FD008A8EC1 /* ContentView.swift in Sources */,
+				61AA5062276B853E008A8EC1 /* ColorPickerComponent.swift in Sources */,
+				61AA5096276B9C55008A8EC1 /* TextView.swift in Sources */,
+				61AA505F276B7FCD008A8EC1 /* CodeComponent.swift in Sources */,
+				61AA5094276B9C55008A8EC1 /* ColorView.swift in Sources */,
+				61AA5056276B7AB6008A8EC1 /* SliderComponent.swift in Sources */,
+				61AA5098276B9C55008A8EC1 /* ContentView.swift in Sources */,
+				61AA5065276B85E9008A8EC1 /* ToggleComponent.swift in Sources */,
+				61AA505C276B7DB3008A8EC1 /* TextFieldComponent.swift in Sources */,
 				61AA503C276B79FD008A8EC1 /* swiftui_documentationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +393,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61AA503F276B79FD008A8EC1 /* ContentView.swift in Sources */,
+				61AA5063276B853E008A8EC1 /* ColorPickerComponent.swift in Sources */,
+				61AA5097276B9C55008A8EC1 /* TextView.swift in Sources */,
+				61AA5060276B7FCD008A8EC1 /* CodeComponent.swift in Sources */,
+				61AA5095276B9C55008A8EC1 /* ColorView.swift in Sources */,
+				61AA5057276B7AB6008A8EC1 /* SliderComponent.swift in Sources */,
+				61AA5099276B9C55008A8EC1 /* ContentView.swift in Sources */,
+				61AA5066276B85E9008A8EC1 /* ToggleComponent.swift in Sources */,
+				61AA505D276B7DB3008A8EC1 /* TextFieldComponent.swift in Sources */,
 				61AA503D276B79FD008A8EC1 /* swiftui_documentationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
